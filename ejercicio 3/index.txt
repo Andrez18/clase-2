@@ -1,0 +1,3 @@
+El estudiante desea ingresar la asistensia de un día que si fue al "colegio"
+
+Va a ser una lista de estudiantes, se necesita que el usuario ingrese el nombre y grado, según el grado se desplegara la lista de esos estudiantes que se necesitan, según cuantos estudiantes se registren creara un porcentaje y lo ostrará en pantalla cuando pase determinado tiempo
