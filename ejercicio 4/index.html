@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organización de Eventos Escolares</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Andrés Felipe Gómez (∩_∩) <br> Organización de Eventos</h1>
+        </header>
+
+        <div class="form">
+            <h2>📝 Inscripción de Actividades</h2>
+            <div class="input-group">
+                <label for="participant">👤 Nombre del Participante:</label>
+                <input type="text" id="participant" placeholder="Escribe el nombre" required>
+            </div>
+
+            <div class="input-group">
+                <label for="activity">🎯 Actividad:</label>
+                <input type="text" id="activity" placeholder="Escribe la actividad" required>
+            </div>
+
+            <button class="btn-primary" onclick="addParticipant()">Añadir Participante</button>
+        </div>
+
+        <div class="schedule">
+            <h2>📅 Horarios y Espacios Asignados</h2>
+            <button class="btn-secondary" onclick="generateSchedule()">Generar Cronograma</button>
+            <div id="schedule-output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
